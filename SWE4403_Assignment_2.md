@@ -94,7 +94,7 @@ class Rectangle implements Graphic {
 }
 
 class Group implements Graphic {
-  private List<Graphic> children = new ArrayList<>();
+  private ArrayList<Graphic> children = new ArrayList<>();
 
   public void add(Graphic graphic) {
     children.add(graphic);
