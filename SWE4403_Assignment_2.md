@@ -135,7 +135,7 @@ classDiagram
   Program --> Logger : calls getInstance()
 ```
 
-### UML Diagram - Design Pattern 2
+### UML Diagram - Composite 2D Game Engine
 
 ```mermaid
 classDiagram

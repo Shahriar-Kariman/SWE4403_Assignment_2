@@ -1,0 +1,14 @@
+classDiagram
+  class Logger {
+    - static Logger instance
+    - static final String LOG_FILE
+    - PrintWriter writer
+    - Logger()
+    + static Logger getInstance()
+    + void log(String message)
+    + void close()
+  }
+  
+  class Program
+  
+  Program --> Logger : calls getInstance()
